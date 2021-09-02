@@ -4,9 +4,69 @@
                 <meta charset="UTF-8">
                 <meta http-equiv="X-UA-Compatible" content="IE=edge">
                 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-                <title>Cadastre-se</title>
+                <title>Cadastre-se seu currículo.</title>
+                <link rel="stylesheet" href="style.css">
 </head>
 <body>
-                
+              <header>
+                <h1>Banco de talentos</h1>
+                <p>Preencha seu currículo e deixe-nos a par de suas habilidades e intereces para possíveis oportunidades.</p>
+              </header>  
+              <main>
+                              <!--Início do formulário-->
+                <form action="">
+                                <!--Início dados pessoais-->
+                                <h2>Dados pessoais</h2>
+                                <label for="">Nome</label>
+                                <input type="text">
+                                <label for="">Data de Nasc</label>
+                                <input type="date">
+                                <label for="">Sexo</label>
+                                <input type="radio" value="Masc"> Masculino
+                                <input type="radio" value="Femi"> Feminino
+                                <label for="">Identidade</label>
+                                <input type="number">
+                                <label for="">CPF</label>
+                                <input type="number">
+                                <label for="">Estado Civil</label>
+                                <select name="" id="">
+                                                <option value="disable">Selecione</option>
+                                                <option value="Solteiro">Solteiro(a)</option>
+                                                <option value="Casado">Casado(a)</option>
+                                                <option value="Divorciado">Divorciado</option>
+                                                <option value="Viuvo">Viúvo(a)</option>
+                                                <option value="U estavel">União estável</option>
+                                </select>
+                                <label for="">Telefone p/contato</label>
+                                <input type="number">
+                                <label for="">Email</label>
+                                <input type="email">
+                                <label for="">Endereço</label>
+                                <input type="text" placeholder="'Rua, número - Bairro - Cidade'">
+                                <hr>
+                                <h2>Dados acadêmicos</h2>
+                                <p>Qual é a sua escolaridade?</p>
+                                <label for="">Fundamental incompleto</label>
+                                <input type="checkbox">
+                                <label for="">Fundamental</label>
+                                <input type="checkbox">
+                                <label for="">Médio incompleto</label>
+                                <input type="checkbox">
+                                <label for="">Médio</label>
+                                <input type="checkbox">
+                                <label for="">Técnico</label>
+                                <input type="checkbox">
+                                <label for="">Superior em andamento</label>
+                                <input type="checkbox">
+                                <label for="">Superior</label>
+                                <input type="checkbox">
+                                <p>Se possui alguma graduação acima no nível médio, especifique para nós. (Qual a facundade que cursa ou técnico ou mesmo se cursa ou já cursou alguma especialização profissionalizante. Seja específico(a) até mesmo no tempo de duração e na unidade de ensino.)</p>
+                                <textarea name="" id="" cols="50" rows="15" placeholder="Digite aqui"></textarea>
+
+                                <h2>Dados profissionais</h2>
+                                <!--Fim dados pessoais-->
+                </form>
+              </main>
+
 </body>
 </html>

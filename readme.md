@@ -1,1 +1,1 @@
-Projeto simples de formulário de cadastro para Desenvolvedores!
+Projeto simples de modelo de currículo a ser preenchido para banco de talentos(Formulário).
