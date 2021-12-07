@@ -9,64 +9,75 @@
 </head>
 <body>
               <header>
-                <h1>Banco de talentos</h1>
-                <p>Preencha seu currículo e deixe-nos a par de suas habilidades e intereces para possíveis oportunidades.</p>
+                <h1>Banco de talentos SCS RS</h1>
+                <p>Preencha seu currículo e deixe-nos a par de suas habilidades e interesses para possíveis oportunidades.</p>
               </header>  
               <main>
                               <!--Início do formulário-->
-                <form action="">
+                <form action="POST">
                                 <!--Início dados pessoais-->
                                 <h2>Dados pessoais</h2>
-                                <label for="">Nome</label>
-                                <input type="text">
-                                <label for="">Data de Nasc</label>
-                                <input type="date">
-                                <label for="">Sexo</label>
-                                <input type="radio" value="Masc"> Masculino
-                                <input type="radio" value="Femi"> Feminino
-                                <label for="">Identidade</label>
-                                <input type="number">
-                                <label for="">CPF</label>
-                                <input type="number">
-                                <label for="">Estado Civil</label>
-                                <select name="" id="">
+                                
+                                  <label class="labeldadospessoais" for="">Nome</label>
+                                  <input class="camposdadospessoais" type="text">
+                                  <br>
+                                  <label class="labeldadospessoais" for="">Data de Nascimento</label>
+                                  <input class="camposdadospessoais" type="date">
+                                  <br>
+                                <div>
+                                  <label class="labeldadospessoais" for="">Sexo</label>
+                                  <select name=""class="camposdadospessoais">
+                                    <option value="disable">Selecione</option>
+                                    <option value="Masc">Masculino</option>
+                                    <option value="Femi">Feminino</option>
+                                  </select>
+                                </div>
+                                
+                                  <label class="labeldadospessoais" for="">Identidade</label>
+                                  <input class="camposdadospessoais" type="number">
+                                  <br>
+                                  <label class="labeldadospessoais" for="">CPF</label>
+                                  <input class="camposdadospessoais" type="number">
+                                
+                                <div>
+                                  <label class="labeldadospessoais" for="">Estado Civil</label>
+                                  <select name="" class="camposdadospessoais">
+                                
                                                 <option value="disable">Selecione</option>
                                                 <option value="Solteiro">Solteiro(a)</option>
                                                 <option value="Casado">Casado(a)</option>
                                                 <option value="Divorciado">Divorciado</option>
                                                 <option value="Viuvo">Viúvo(a)</option>
                                                 <option value="U estavel">União estável</option>
-                                </select>
-                                <label for="">Telefone p/contato</label>
-                                <input type="number">
-                                <label for="">Email</label>
-                                <input type="email">
-                                <label for="">Endereço</label>
-                                <input type="text" placeholder="'Rua, número - Bairro - Cidade'">
+                                  </select>
+                                </div>
+                                  <label class="labeldadospessoais" for="">Telefone p/contato</label>
+                                  <input class="camposdadospessoais" type="number">
+                                  <br>
+                                 <label class="labeldadospessoais" for="">Email</label>
+                                 <input class="camposdadospessoais" type="email">
+                                  <br>
+                                 <label class="labeldadospessoais" for="">Endereço</label>
+                                 <input class="camposdadospessoais" type="text" placeholder="'Rua, número - Bairro - Cidade'">
+                                <br>
+                                <br>
                                 <!--Fim dados pessoais-->
 
                                 <!--Início dados acadêmicos-->
-                                <hr>
+                                
                                 <h2>Dados acadêmicos</h2>
-                                <p>Qual é a sua escolaridade?</p>
-                                <label for="">Fundamental incompleto</label>
-                                <input type="checkbox">
-                                <label for="">Fundamental</label>
-                                <input type="checkbox">
-                                <label for="">Médio incompleto</label>
-                                <input type="checkbox">
-                                <label for="">Médio</label>
-                                <input type="checkbox">
-                                <label for="">Técnico</label>
-                                <input type="checkbox">
-                                <label for="">Superior em andamento</label>
-                                <input type="checkbox">
-                                <label for="">Superior</label>
-                                <input type="checkbox">
-                                <p>Se possui alguma graduação acima no nível médio, especifique para nós. (Qual a facundade que cursa ou técnico ou mesmo se cursa ou já cursou alguma especialização profissionalizante. Seja específico(a) até mesmo no tempo de duração e na unidade de ensino.)</p>
+                                <label style="display: block; margin-bottom: 10px; font-weight: bold;">Qual é a sua escolaridade?</label>
+                                Fundamental incompleto <input type="checkbox">
+                                Fundamental <input type="checkbox">
+                                Médio incompleto <input type="checkbox">
+                                Médio <input type="checkbox">
+                                Técnico <input type="checkbox">
+                                Superior em andamento <input type="checkbox">
+                                Superior <input type="checkbox">
+                                <p id="paragrafodadosacademicos">Se possui alguma graduação acima no nível médio, especifique para nós. (Qual a facundade que cursa ou técnico ou mesmo se cursa ou já cursou alguma especialização profissionalizante. Seja específico(a) até mesmo no tempo de duração e na unidade de ensino.)</p>
                                 <textarea name="" id="" cols="50" rows="15" placeholder="Digite aqui"></textarea>
                                 <!--Fim dados acadêmicos-->
-                                <hr>
+                                
                                   <!--Início dados Profissionais-->
                                 <h2>Dados profissionais</h2>
                                 <label for="">Está empregado(a) no momento?</label>
@@ -82,6 +93,7 @@
                                   <!--Fim dados profissionais-->
                 </form>
               </main>
+              
 
 </body>
 </html>
