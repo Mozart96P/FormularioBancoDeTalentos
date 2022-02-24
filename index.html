@@ -11,42 +11,44 @@
     <header>
       <h1 id="titulo-principal">Dream Big</h1>
     </header>
-    <div id="apresentacao-empresa">
-      <p id="apresentacao-texto">Somos uma empresa de software especializada em desenvolver soluções para a area de móveis planejados. Há mais de 10 anos realizando esse trabalho, nós já ajudamos muitas empresas a atingir o próximo nível de seu trabalho. <br> Contate-nos e vamos conversar sobre o que você precisa!</p>
-    </div>
-    
-      <form id="container-formulario" action="">
-        <div class="campos-formulario">
-          <label class="titulos-campos" for="">Nome</label>
-          <input class="informacao-campos" type="text">
-        </div>
-        <div class="campos-formulario"></div>
-          <label class="titulos-campos" for="">Nome da empresa</label>
-          <input class="informacao-campos" type="text">
-        </div>
-        <div>
-          <label class="titulos-campos" for="">Estado</label>
-          <input type="radio">RS
-          <input type="radio">SC
-          <input type="radio">PR
-        </div>
-        <div class="campos-formulario"></div>
-          <label class="titulos-campos" for="">Cidade</label>
-          <input class="informacao-campos" type="text">
-        </div>
-        <div class="campos-formulario"></div>
-          <label class="titulos-campos" for="">Email</label>
-          <input class="informacao-campos" type="email">
-        </div>
-        <div class="campos-formulario"></div>
-          <label class="titulos-campos" for="">Telefone</label>
-          <input class="informacao-campos" type="number">
-        </div>
-        <div class="campos-formulario-mensagem"></divclass>
-          <label class="titulos-campos" for="">Mensagem</label>
-          <textarea name="" id="" cols="50" rows="20"></textarea>
-        </div>
-      </form>
-    
+    <main id="conteudo-principal">
+      <div id="apresentacao-empresa">
+        <p id="apresentacao-texto">Somos uma empresa de software especializada em desenvolver soluções para a area de móveis planejados. Há mais de 10 anos realizando esse trabalho, nós já ajudamos muitas empresas a atingir o próximo nível de seu trabalho. <br> Contate-nos e vamos conversar sobre o que você precisa!</p>
+      </div>
+      
+        <form id="container-formulario" action="">
+          <div class="campos-formulario">
+            <label class="titulos-campos" for="">Nome</label>
+            <input class="informacao-campos" type="text">
+          </div>
+          <div class="campos-formulario"></div>
+            <label class="titulos-campos" for="">Nome da empresa</label>
+            <input class="informacao-campos" type="text">
+          </div> 
+          <div class="campos-formulario-estado">
+            <label class="titulos-campos-estado" for="">Estado</label>
+            <input type="radio" value="rs">RS
+            <input type="radio" value="sc">SC
+            <input type="radio" value="pr">PR
+          </div>
+          <div class="campos-formulario"></div>
+            <label class="titulos-campos" for="">Cidade</label>
+            <input class="informacao-campos" type="text">
+          </div>
+          <div class="campos-formulario"></div>
+            <label class="titulos-campos" for="">Email</label>
+            <input class="informacao-campos" type="email">
+          </div>
+          <div class="campos-formulario"></div>
+            <label class="titulos-campos" for="">Telefone</label>
+            <input class="informacao-campos" type="number">
+          </div>
+          <div class="campos-formulario-mensagem"></divclass>
+            <label class="titulos-campos" for="">Mensagem</label>
+            <textarea name="textarea" id="areatxt-mensagem" cols="50" rows="10" placeholder="Digite aqui."></textarea>
+          </div>
+          <input class="btn-enviar" type="submit">
+        </form>
+    </main>
 </body>
 </html>

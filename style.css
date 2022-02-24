@@ -2,41 +2,63 @@
                 margin: 0;
                 padding: 0;
 }
+body{
+                background-color: #00405c;
+}
+#conteudo-principal{
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: space-around;
+                align-items: flex-start;
+}
+
+/* ESTILIZANDO CABEÇALHO E PARAGRAFO */
 
 #titulo-principal{
+                margin-top: 10px;
                 text-align: center;
                 font-family: helvetica, sans-serif;
+                color: pink;
 }
 
 #apresentacao-empresa{
-                width: 700px;
-                margin: auto;
-                margin-top:20px ;
+                margin-top: 5%;
+                width: 450px;
 }
 #apresentacao-texto{
-                text-align: justify;
                 font-family: Helvetica , sans-serif;
-                font-size: 1.3em;
+                font-size: 1.4em;
+                line-height: 36px;
+                color: white;
 }
 
 /* ESTILIZANDO FORMULÁRIO */
 
 #container-formulario{
-                background-color: aquamarine;
-                max-width: 700px;
-                margin: auto;
+                background-color: white;
+                box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.705);
+                width: 500px;
                 margin-top:15px ;
                 padding: 10px;
 }
 .campos-formulario{
                 margin-bottom: 15px;
 }
+
+.campos-formulario-estado{
+                margin-top:15px ;
+}
 .titulos-campos{
                 display: block;
                 font-family: helvetica, sans-serif;
                 font-size: 1.1em;
+                color: red;
 }
-
+.titulos-campos-estado{
+                font-family: helvetica, sans-serif;
+                font-size: 1.1em;         
+}
 .informacao-campos{
                 width: 100%;
                 padding-top: 5px;
@@ -48,4 +70,60 @@
 .campos-formulario-mensagem{
                 margin-top: 15px;
                 text-align: center;
+}
+#areatxt-mensagem{
+                border-style: solid;
+                border-width: 2px;
+}
+
+.btn-enviar{
+                width: 100%;
+                display: block;
+                margin: auto;
+                margin-top:20px ;
+                padding: 5px;
+                color: white;
+                font-weight: 600;
+                background-color: #009788;
+                border: solid 2px;
+                border-radius: 10px;
+}
+
+/* TRABALHANDO NA RESPONSIVIDADE */
+
+@media screen and (max-width:500px) {
+                #apresentacao-empresa{
+                                margin-top: 10px;
+                                width: 300px;
+                }
+                #apresentacao-texto{
+                                text-align: center;
+                                font-family: Helvetica , sans-serif;
+                                font-size: 1.1em;
+                                line-height: 24px;
+                                color: white;
+                }
+                #container-formulario{
+                                background-color: #00405c;
+                                box-shadow: none;
+                                width: 310px;
+                                margin-top:15px ;
+                                padding: 5px;
+                }
+                .titulos-campos{
+                                display: block;
+                                font-family: helvetica, sans-serif;
+                                font-size: 1.1em;
+                                color: white;
+                }
+                .titulos-campos-estado{
+                                color: white;
+                                font-family: helvetica, sans-serif;
+                                font-size: 1.1em;         
+                }
+                #areatxt-mensagem{
+                                width: 290px;
+                                border-style: solid;
+                                border-width: 2px;
+                }
 }
