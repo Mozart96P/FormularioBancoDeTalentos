@@ -1,1 +1,1 @@
-Projeto simples de modelo de currículo a ser preenchido para banco de talentos(Formulário).
+Projeto de um formulário de contato simples.

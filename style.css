@@ -2,74 +2,50 @@
                 margin: 0;
                 padding: 0;
 }
-header{
-                background-color: rgb(132, 132, 236);
-                padding: 15px;
-                margin-bottom: 15px;
+
+#titulo-principal{
+                text-align: center;
+                font-family: helvetica, sans-serif;
 }
 
-h1{
-                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-                text-align: center;
-                margin-bottom: 15px;
-                color: white;
+#apresentacao-empresa{
+                width: 700px;
+                margin: auto;
+                margin-top:20px ;
 }
-header  p{
-                text-align: center;
+#apresentacao-texto{
+                text-align: justify;
+                font-family: Helvetica , sans-serif;
+                font-size: 1.3em;
+}
+
+/* ESTILIZANDO FORMULÁRIO */
+
+#container-formulario{
+                background-color: aquamarine;
+                max-width: 700px;
+                margin: auto;
+                margin-top:15px ;
+                padding: 10px;
+}
+.campos-formulario{
+                margin-bottom: 15px;
+}
+.titulos-campos{
+                display: block;
+                font-family: helvetica, sans-serif;
+                font-size: 1.1em;
+}
+
+.informacao-campos{
+                width: 100%;
+                padding-top: 5px;
+                padding-bottom: 5px ;
+                border-style: solid;
+                border-width: 2px;
+}
+
+.campos-formulario-mensagem{
                 margin-top: 15px;
-                margin-bottom: 15px;
-                font-family: Helvetica, sans-serif;
-                font-size: 1.2em;
-}
-main{
-                max-width: 820px;
-                margin: auto;
-                margin-bottom: 20px;
-                padding-left: 10px;
-                padding-right: 10px;
-                border-style: solid;
-                border-top:none;
-                border-bottom: none;
-                border-color: black;
-}
-
-.labeldadospessoais{
-                display: inline-block;
-                width: 200px;
-                padding: 5px;
-                font-family: Helvetica, sans-serif;
-}
-.camposdadospessoais{
-                width: 400px;   
-                padding: 5px;       
-                margin-left: 30px;
-                background-color: white;
-                border-style: solid;
-                border-top: none;
-                border-left: none;
-                border-right: none;
-                font-family: Helvetica, sans-serif;
-}
-
-h2{
-                margin-top: 10px;
-                margin-bottom: 10px;
-                padding-left:8px ;
-                font-family: Helvetica, sans-serif;
-                color: white;
-                background-image: linear-gradient( to right, rgb(132, 132, 236), white );
-}
-#paragrafodadosacademicos{
-                margin-top: 10px;
-                margin-bottom: 10px;
                 text-align: center;
-                font-family: Helvetica, sans-serif;
-                line-height: 20px;
 }
-textarea{
-                display:block;
-                margin: auto;
-                padding: 5px;
-                margin-bottom: 20px ;
-}
-
